@@ -1,0 +1,38 @@
+import './App.css'
+import { useState } from 'react';
+import {Routes,Route} from 'react-router-dom'
+import NavBar from "./components/Navbar"
+import Home from './pages/Home';
+import Login from './pages/Login';
+import SignUp from './pages/SignUp';
+import AskQuestion from './pages/AskQuestion'
+import Quiz from './pages/Quiz'
+import Result from './pages/Result'
+import Questions from './pages/questions';
+
+function App() {
+
+     const[isLoggedIn,setIsLoggedIn]=useState(false);
+
+  return (
+    <div className='w-full h-screen bg-gradient-to-br from-indigo-100 via-white to-purple-700 flex flex-col'>
+      <NavBar isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} />
+
+      <Routes>
+        
+       <Route path='/' element={<Home/>}/>
+       <Route path='/login' element={<Login setIsLoggedIn={setIsLoggedIn}/>}/>
+       <Route path='/signup' element={<SignUp setIsLoggedIn={setIsLoggedIn}/>}/>
+       <Route path='/askQuestion' element={<AskQuestion/>}/>
+       <Route path='/questions' element={<Questions/>}/>
+       <Route path='/quiz' element={<Quiz/>}/>
+       <Route path='/result' element={<Result/>}/>
+
+
+      
+      </Routes>
+    </div>
+  )
+}
+
+export default App
