@@ -63,18 +63,6 @@ const Navbar = ({ isLoggedIn, setIsLoggedIn }) => {
 
               <li>
                 <Link
-                  to="/questions"
-                  className={`flex items-center gap-2 px-3 py-2 rounded-lg transition-colors duration-200 ${
-                    isActive('/questions') ? 'bg-blue-50 text-blue-600' : 'text-gray-700 hover:text-blue-600 hover:bg-blue-50'
-                  }`}
-                >
-                  <HiBookOpen size={18} />
-                  <span>Questions</span>
-                </Link>
-              </li>
-
-              <li>
-                <Link
                   to="/quiz"
                   className={`flex items-center gap-2 px-3 py-2 rounded-lg transition-colors duration-200 ${
                     isActive('/quiz') ? 'bg-blue-50 text-blue-600' : 'text-gray-700 hover:text-blue-600 hover:bg-blue-50'
