@@ -15,7 +15,7 @@ function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   return (
-    <div className="w-full h-full bg-gradient-to-br from-indigo-100 via-white to-purple-700 flex flex-col">
+    <div className="w-full h-full bg-gradient-to-br from-blue-300 via-white to-purple-700 flex flex-col">
       <NavBar isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} />
 
       <Routes>
