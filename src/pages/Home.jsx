@@ -2,6 +2,7 @@ import React from 'react';
 import TopicCard from '../components/TopicCard';
 import { Link } from 'react-router-dom';
 import { FaArrowRight } from "react-icons/fa6";
+import About from '../components/About';
 
 const Home = ({ questions }) => {
   const topics = Object.keys(questions);
@@ -30,6 +31,8 @@ const Home = ({ questions }) => {
           ))}
         </div>
       </div>
+
+      <About/>
     </div>
   );
 };

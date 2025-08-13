@@ -10,6 +10,7 @@ import Quiz from './pages/Quiz';
 import QA from './pages/QA';
 import Result from './pages/Result';
 import { questions } from './data/questions';
+import Footer from './components/Footer';
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -27,7 +28,10 @@ function App() {
         <Route path='/quiz' element={<Quiz />} />
         <Route path='/result' element={<Result />} />
       </Routes>
+
+       <Footer/>
     </div>
+   
   );
 }
 
