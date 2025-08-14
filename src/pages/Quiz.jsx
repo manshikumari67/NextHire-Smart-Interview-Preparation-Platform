@@ -100,7 +100,7 @@ const Quiz = () => {
 
   if (!isQuizStarted) {
     return (
-      <div className="w-7/12 h-screen mx-auto space-y-8">
+      <div className="w-7/12 h-screen mx-auto space-y-8 pb-10 mb-10">
         <div className="text-center mt-12 animate-fadeIn">
         <h1 className="text-4xl font-extrabold bg-gradient-to-r from-blue-500 to-purple-600 text-transparent bg-clip-text mb-4">
          Take a Quiz
@@ -191,7 +191,7 @@ const Quiz = () => {
   const progress = ((currentQuestionIndex + 1) / quizQuestions.length) * 100;
 
   return (
-    <div className="max-w-4xl mx-auto space-y-6">
+    <div className="max-w-4xl mx-auto space-y-6 mt-10">
       <div className="bg-white rounded-2xl shadow-lg border border-gray-100 p-6">
         <div className="flex items-center justify-between mb-4">
           <div className="flex items-center gap-4">
