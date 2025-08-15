@@ -3,6 +3,9 @@ import TopicCard from '../components/TopicCard';
 import { Link } from 'react-router-dom';
 import { FaArrowRight } from "react-icons/fa6";
 import About from '../components/About';
+import FeaturesSection from '../components/FeaturesSection';
+import HowItWorks from '../components/HowItWorks';
+import CallSection from '../components/CallSection';
 
 const Home = ({ questions }) => {
   const topics = Object.keys(questions);
@@ -45,6 +48,10 @@ const Home = ({ questions }) => {
       </div>
 
       <About/>
+      <FeaturesSection/>
+      <CallSection/>
+      <HowItWorks/>
+    
     </div>
   );
 };

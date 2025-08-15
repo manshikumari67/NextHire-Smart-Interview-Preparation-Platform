@@ -100,7 +100,7 @@ const Navbar = ({ isLoggedIn, setIsLoggedIn }) => {
               </Link>
             )}
             {isLoggedIn && (
-              <Link to="/">
+              <Link to="/login">
                 <button
                   className={authBtnClass}
                   onClick={() => {

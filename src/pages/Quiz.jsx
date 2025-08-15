@@ -100,7 +100,7 @@ const Quiz = () => {
 
   if (!isQuizStarted) {
     return (
-      <div className="w-7/12 h-screen mx-auto space-y-8 pb-10 mb-10">
+      <div className="w-7/12  min-h-screen  mx-auto space-y-8 pb-10 mb-10">
         <div className="text-center mt-12 animate-fadeIn">
         <h1 className="text-4xl font-extrabold bg-gradient-to-r from-blue-500 to-purple-600 text-transparent bg-clip-text mb-4">
          Take a Quiz

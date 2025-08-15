@@ -1,3 +1,4 @@
+// src/App.jsx
 import './App.css';
 import { useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
@@ -11,6 +12,7 @@ import QA from './pages/QA';
 import Result from './pages/Result';
 import { questions } from './data/questions';
 import Footer from './components/Footer';
+import PrivateRoute from './components/PrivateRoute';
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -21,19 +23,21 @@ function App() {
 
       <Routes>
         <Route path='/' element={<Home questions={questions} />} />
-        <Route path='/qa/:topic' element={<QA />} />
         <Route path='/login' element={<Login setIsLoggedIn={setIsLoggedIn} />} />
         <Route path='/signup' element={<SignUp setIsLoggedIn={setIsLoggedIn} />} />
         <Route path='/askQuestion' element={<AskQuestion />} />
         <Route path='/quiz' element={<Quiz />} />
-        <Route path='/result' element={<Result />} />
+
+        {/* Private routes */}
+        <Route element={<PrivateRoute isLoggedIn={isLoggedIn} />}>
+          <Route path='/qa/:topic' element={<QA />} />
+          <Route path='/result' element={<Result />} />
+        </Route>
       </Routes>
 
-       <Footer/>
+      <Footer />
     </div>
-   
   );
 }
 
 export default App;
-
