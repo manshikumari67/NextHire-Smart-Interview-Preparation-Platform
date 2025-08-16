@@ -10,6 +10,8 @@ import AskQuestion from './pages/AskQuestion';
 import Quiz from './pages/Quiz';
 import QA from './pages/QA';
 import Result from './pages/Result';
+import Profile from './pages/Profile';
+import EditProfile from "./pages/EditProfile";
 import { questions } from './data/questions';
 import Footer from './components/Footer';
 import PrivateRoute from './components/PrivateRoute';
@@ -27,6 +29,9 @@ function App() {
         <Route path='/signup' element={<SignUp setIsLoggedIn={setIsLoggedIn} />} />
         <Route path='/askQuestion' element={<AskQuestion />} />
         <Route path='/quiz' element={<Quiz />} />
+        <Route path='/profile' element={<Profile />} />
+        <Route path="/edit-profile" element={<EditProfile />} />
+
 
         {/* Private routes */}
         <Route element={<PrivateRoute isLoggedIn={isLoggedIn} />}>

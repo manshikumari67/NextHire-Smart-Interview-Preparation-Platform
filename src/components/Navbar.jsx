@@ -112,6 +112,15 @@ const Navbar = ({ isLoggedIn, setIsLoggedIn }) => {
                 </button>
               </Link>
             )}
+            { isLoggedIn &&
+                <Link to="/profile">
+                    <button
+                     className={authBtnClass}
+                    >
+                      profile
+                    </button>
+                </Link>
+            }
           </div>
 
           {/* Mobile: Login + Hamburger */}

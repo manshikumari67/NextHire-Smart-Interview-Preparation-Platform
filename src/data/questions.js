@@ -70,4 +70,46 @@ export const questions = {
         "Load balancing distributes incoming requests across multiple servers to prevent overload and ensure high availability.\n\nTypes include:\n- Layer 4 (Transport): Routes based on IP and port\n- Layer 7 (Application): Routes based on content (HTTP headers, URLs)\n- Algorithms: Round-robin, least connections, weighted, IP hash\n- Types: Hardware vs software, active-passive vs active-active",
     },
   ],
+
+  HTML: [
+    {
+      id: 1,
+      question: "What is HTML?",
+      answer:
+        "HTML (HyperText Markup Language) is the standard markup language for creating and designing web pages, providing structure and content using elements.",
+    },
+    {
+      id: 2,
+      question: "What is the difference between HTML tags and elements?",
+      answer:
+        "Tags are keywords in angle brackets, like <p>, while elements include the opening tag, content, and closing tag, such as <p>Content</p>.",
+    },
+    {
+      id: 3,
+      question: "How is an HTML document structured?",
+      answer:
+        "A typical structure includes <!DOCTYPE html>, <html> (the root), <head> (for meta-information and title), and <body> (for content). ",
+    },
+  ],
+
+    "Computer Networks": [
+    {
+      id: 1,
+      question: "Explain the OSI model and its layers?",
+      answer:
+        "The OSI (Open Systems Interconnection) model is a conceptual framework that divides network communication into seven distinct layers. Each layer has specific functions and responsibilities, starting from the physical layer which handles raw data transmission to the application layer which provides services for end-user applications.",
+    },
+    {
+      id: 2,
+      question: "Explain how DNS works?",
+      answer:
+        "The Domain Name System (DNS) translates human-readable domain names into machine-readable IP addresses. The process involves querying a hierarchy of DNS servers, starting with the local cache and potentially involving root, TLD, and authoritative servers, to find the corresponding IP address.",
+    },
+    {
+      id: 3,
+      question: "Differentiate between IPv4 and IPv6.",
+      answer:
+        " IPv4 and IPv6 are two versions of the Internet Protocol. IPv4 uses 32-bit addresses, while IPv6 uses 128-bit addresses, providing a significantly larger address space to accommodate the increasing number of devices.",
+    },
+  ],
 };

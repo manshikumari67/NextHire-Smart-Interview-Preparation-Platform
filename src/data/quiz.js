@@ -1,4 +1,4 @@
-export const quiz={
+export const quiz = {
   "JavaScript": [
     {
       "id": 1,
@@ -36,6 +36,7 @@ export const quiz={
       "explanation": "The 'const' keyword is used to declare constants in JavaScript."
     }
   ],
+
   "React": [
     {
       "id": 6,
@@ -73,6 +74,7 @@ export const quiz={
       "explanation": "Keys help React identify which items have changed, are added, or are removed, optimizing re-rendering performance."
     }
   ],
+
   "DBMS": [
     {
       "id": 11,
@@ -110,6 +112,7 @@ export const quiz={
       "explanation": "ACID stands for Atomicity, Consistency, Isolation, and Durability - the four key properties of database transactions."
     }
   ],
+
   "System Design": [
     {
       "id": 16,
@@ -146,5 +149,81 @@ export const quiz={
       "correctAnswer": 1,
       "explanation": "Database sharding is a method of horizontally partitioning data across multiple database instances."
     }
+  ],
+
+  "HTML": [
+    {
+      "id": 21,
+      "question": "What does HTML stand for?",
+      "options": ["Hyper Trainer Marking Language", "Hyper Text Markup Language", "Hyper Text Marketing Language", "High Text Marking Language"],
+      "correctAnswer": 1,
+      "explanation": "HTML stands for Hyper Text Markup Language, used for creating web pages."
+    },
+    {
+      "id": 22,
+      "question": "Which HTML tag is used to create a hyperlink?",
+      "options": ["<link>", "<a>", "<href>", "<url>"],
+      "correctAnswer": 1,
+      "explanation": "The <a> tag is used to create hyperlinks in HTML."
+    },
+    {
+      "id": 23,
+      "question": "Which attribute is used to provide alternative text for an image?",
+      "options": ["title", "alt", "src", "longdesc"],
+      "correctAnswer": 1,
+      "explanation": "The alt attribute provides alternative text for an image if it cannot be displayed."
+    },
+    {
+      "id": 24,
+      "question": "Which tag is used to define the largest heading in HTML?",
+      "options": ["<h6>", "<heading>", "<h1>", "<head>"],
+      "correctAnswer": 2,
+      "explanation": "The <h1> tag defines the largest heading in HTML."
+    },
+    {
+      "id": 25,
+      "question": "Which HTML element is used to display a numbered list?",
+      "options": ["<ul>", "<ol>", "<li>", "<dl>"],
+      "correctAnswer": 1,
+      "explanation": "The <ol> tag is used to create an ordered (numbered) list."
+    }
+  ],
+
+  "Computer Networks": [
+    {
+      "id": 26,
+      "question": "What does IP stand for?",
+      "options": ["Internet Process", "Internet Protocol", "Internal Program", "Internet Procedure"],
+      "correctAnswer": 1,
+      "explanation": "IP stands for Internet Protocol, used for addressing and routing packets across networks."
+    },
+    {
+      "id": 27,
+      "question": "Which protocol is used to send emails?",
+      "options": ["HTTP", "SMTP", "FTP", "SNMP"],
+      "correctAnswer": 1,
+      "explanation": "SMTP (Simple Mail Transfer Protocol) is used to send emails."
+    },
+    {
+      "id": 28,
+      "question": "Which layer of the OSI model is responsible for routing?",
+      "options": ["Transport layer", "Data Link layer", "Network layer", "Session layer"],
+      "correctAnswer": 2,
+      "explanation": "The Network layer is responsible for routing packets from source to destination."
+    },
+    {
+      "id": 29,
+      "question": "Which device is used to connect different networks together?",
+      "options": ["Switch", "Router", "Hub", "Repeater"],
+      "correctAnswer": 1,
+      "explanation": "A Router connects multiple networks and routes data packets between them."
+    },
+    {
+      "id": 30,
+      "question": "What does DNS stand for?",
+      "options": ["Data Network System", "Domain Name System", "Dynamic Network Service", "Distributed Naming Service"],
+      "correctAnswer": 1,
+      "explanation": "DNS stands for Domain Name System, which translates domain names into IP addresses."
+    }
   ]
-}
+};

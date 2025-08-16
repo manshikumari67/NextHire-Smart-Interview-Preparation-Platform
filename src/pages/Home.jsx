@@ -37,15 +37,29 @@ const Home = ({ questions }) => {
               </span>
             </Link>
           </div>
+
+          <div className="mt-10 text-center">
+              <h2 className="text-3xl sm:text-4xl font-bold text-gray-800">
+                   Your Journey to Success Starts Here 🚀
+              </h2>
+              
+          </div>
           
-      <div className="p-6">
-        <h1 className="text-3xl font-bold text-center mb-8">Explore Interview Topics</h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-          {topics.map((topic) => (
-            <TopicCard key={topic} topic={topic} />
-          ))}
+        <div className="p-10 mt-16 bg-gradient-to-br from-blue-100 to-purple-100 rounded-t-3xl shadow-lg">
+          <h1 className="text-4xl font-extrabold text-center mb-6 text-gray-800">
+            Explore Interview Topics
+          </h1>
+          <p className="text-center text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto mb-12">
+          Practice interview questions, track your progress, and land your dream job with confidence.
+          </p>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+             {topics.map((topic) => (
+              <TopicCard key={topic} topic={topic} />
+               ))}
+          </div>
         </div>
-      </div>
+
 
       <About/>
       <FeaturesSection/>

@@ -19,12 +19,7 @@ const CallSection = () => {
           >
             Join Now
           </a>
-          <a
-            href="/forum"
-            className="px-6 py-3 bg-transparent border border-white font-semibold rounded-lg shadow-lg hover:bg-white hover:text-blue-600 transition"
-          >
-            Explore Forum
-          </a>
+          
         </div>
       </div>
     </section>
