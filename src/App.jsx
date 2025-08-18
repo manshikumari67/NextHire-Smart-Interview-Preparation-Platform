@@ -15,6 +15,7 @@ import EditProfile from "./pages/EditProfile";
 import { questions } from './data/questions';
 import Footer from './components/Footer';
 import PrivateRoute from './components/PrivateRoute';
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -22,6 +23,7 @@ function App() {
   return (
     <div className="w-full h-full bg-gradient-to-br from-blue-300 via-white to-purple-700 flex flex-col">
       <NavBar isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn} />
+        <ScrollToTop />
 
       <Routes>
         <Route path='/' element={<Home questions={questions} />} />
