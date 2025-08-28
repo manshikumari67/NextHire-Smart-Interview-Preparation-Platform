@@ -20,11 +20,11 @@ It provides topic-wise **Q&A forums, quizzes, leaderboards, and user statistics*
 ## 🛠️ Tech Stack  
 
 - **Frontend**: React + Vite ⚡  
-- **Styling**: Tailwind CSS 🎨, ShadCN UI  
+- **Styling**: Tailwind CSS 🎨, React-Icons 
 - **Routing**: React Router 🌐  
 - **State Management**: React Hooks & Context API  
 - **Deployment**: Netlify (Frontend) ☁️  
-- **Backend (Planned)**: Node.js, Express.js, MongoDB 🗄️  
+ 
 
 ---
 
