@@ -1,12 +1,27 @@
-# React + Vite
+#NextHire
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+NextHire is a smart interview preparation platform designed to help candidates practice, learn, and improve their skills. The platform provides topic-wise Q&A forums, quizzes, leaderboards, and user statistics to track progress.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔑 Authentication – Secure Login & Signup
 
-## Expanding the ESLint configuration
+🏠 User Dashboard – Personalized space for each user
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+❓ Q&A Forum – Topic-based question & answer discussions
+
+📝 Quizzes – Multiple Choice Questions for self-assessment
+
+🏆 Leaderboard – Compete and compare progress with peers
+
+📊 User Stats – Track learning journey and performance
+
+🛠️ Tech Stack
+
+Frontend: React + Vite, Tailwind CSS, ShadCN UI, React Router
+
+State Management: React Hooks & Context API
+
+Backend (Planned): Node.js, Express.js, MongoDB
+
+Deployment: Netlify (Frontend), Render/Heroku (Backend)
