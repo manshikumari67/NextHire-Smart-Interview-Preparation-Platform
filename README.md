@@ -1,25 +1,32 @@
-#NextHire
 
-NextHire is a smart interview preparation platform designed to help candidates practice, learn, and improve their skills. The platform provides topic-wise Q&A forums, quizzes, leaderboards, and user statistics to track progress.
+# 🚀 NextHire  
 
-🚀 Features
+**NextHire** is a smart **interview preparation platform** designed to help candidates practice, learn, and improve their skills.  
+It provides topic-wise **Q&A forums, quizzes, leaderboards, and user statistics** to track progress effectively.  
 
-🔑 Authentication – Secure Login & Signup
+---
 
-🏠 User Dashboard – Personalized space for each user
+## ✨ Features  
 
-❓ Q&A Forum – Topic-based question & answer discussions
+🔑 **Authentication** – Secure Login & Signup  
+🏠 **User Dashboard** – Personalized space for each user  
+💬 **Q&A Forum** – Topic-based question & answer discussions  
+📝 **Quizzes** – Multiple Choice Questions for self-assessment  
+🏆 **Leaderboard** – Compete and compare progress with peers  
+📊 **User Stats** – Track learning journey and performance  
 
-📝 Quizzes – Multiple Choice Questions for self-assessment
+---
 
-🏆 Leaderboard – Compete and compare progress with peers
+## 🛠️ Tech Stack  
 
-📊 User Stats – Track learning journey and performance
+- **Frontend**: React + Vite ⚡  
+- **Styling**: Tailwind CSS 🎨, ShadCN UI  
+- **Routing**: React Router 🌐  
+- **State Management**: React Hooks & Context API  
+- **Deployment**: Netlify (Frontend) ☁️  
+- **Backend (Planned)**: Node.js, Express.js, MongoDB 🗄️  
 
-🛠️ Tech Stack
+---
 
-Frontend: React + Vite, Tailwind CSS, ShadCN UI, React Router
+## 📂 Project Structure  
 
-State Management: React Hooks & Context API
-
-Deployment: Netlify (Frontend)
