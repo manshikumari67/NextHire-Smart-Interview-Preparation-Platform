@@ -28,5 +28,5 @@ It provides topic-wise **Q&A forums, quizzes, leaderboards, and user statistics*
 
 ---
 
-## 📂 Project Structure  
+
 
